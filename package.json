@@ -1,0 +1,33 @@
+{
+  "name": "await-exec",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hanford/await-exec.git"
+  },
+  "homepage": "https://github.com/hanford/await-exec",
+  "bugs": "https://github.com/hanford/await-exec/issues",
+  "authors": [
+    "Jack Hanford"
+  ],
+  "tags": [
+    "async / await",
+    "child process",
+    "exec",
+    "cp.exec",
+    "execSync",
+    "promise"
+  ],
+  "keywords": [
+    "async / await",
+    "child process",
+    "exec",
+    "cp.exec",
+    "execSync",
+    "promise"
+  ],
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {}
+}
