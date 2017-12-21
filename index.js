@@ -8,7 +8,6 @@ function Exec (command, options = { log: false, cwd: process.cwd() }) {
   return new Promise((done, failed) => {
     cp.exec(command, { ...options }, (err, stdout, stderr) => {
       if (err) {
-        error(err)
         err.stdout = stdout
         err.stderr = stderr
         failed(err)
