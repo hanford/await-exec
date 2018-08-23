@@ -4,7 +4,7 @@ Small promise wrapper around node's `child_process#exec` allowing you to use asy
 
 ## Usage
 ```js
-const exec = require('await-exe')
+const exec = require('await-exec')
 
 async function logger (text) {
   await exec(`echo ${text}`)
