@@ -17,6 +17,15 @@ for (let k = 0; k < 10; k++) {
 
 Optinally you can pass a second `Object` that will get directly passed to cp#exec
 
+## Modern Usage
+```
+import exec from "await-exec"
+
+async function logger (text) {
+  const { stdout, stderr } = await exec('python --version')
+  console.log(stdout, stderr)
+}
+```
 
 Questions? Feedback? [Please let me know](https://github.com/hanford/bundle-cop/issues/new)
 
